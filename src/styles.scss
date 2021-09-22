@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  --color-primary: #3c096c;
+  --color-primary-darken: #240046;
+  --color-primary-lighten: #7b2cbf;
+
+  --color-secundary: #013a63;
+  --color-secundary-darken: #012a4a;
+  --color-secundary-lighten: #014f86;
+
+  --color-white: #ffffff;
+  --color-black: #000814;
+  --color-grey: #525252;
+  --color-red: rgb(255, 0, 0);
+
+  --font-text: Roboto;
+  --font-title: "Helvetica Neue";
+
+  box-sizing: border-box;
+  font-size: 62.5%; //1rem = 10px;
+  font-family: var(--font-text), var(--font-title), sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+}

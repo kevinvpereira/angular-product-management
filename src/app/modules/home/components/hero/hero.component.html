@@ -1,0 +1,12 @@
+<div class="hero--container">
+  <div class="hero" [ngStyle]="{ backgroundImage: 'url(' + hero.image + ')' }">
+    <div class="hero--header">
+      <h3 class="hero--name">{{ hero.name }}</h3>
+    </div>
+  </div>
+  <hero-status
+    class="hero--stats"
+    [stats]="hero.powerstats"
+    [state]="state"
+  ></hero-status>
+</div>

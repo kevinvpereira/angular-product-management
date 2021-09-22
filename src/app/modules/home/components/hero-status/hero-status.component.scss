@@ -1,0 +1,26 @@
+.hero-status {
+  transform: translateY(-1.5rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1rem;
+  position: absolute;
+
+  gap: 1rem;
+  padding: 1rem;
+  background-color: var(--color-primary-darken);
+  color: var(--color-grey);
+
+  &--power {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &--label {
+    font-weight: 700;
+  }
+
+  &--value {
+    color: var(--color-white);
+  }
+}

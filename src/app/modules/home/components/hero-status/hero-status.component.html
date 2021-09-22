@@ -1,0 +1,53 @@
+<div class="hero-status" [@hoverEffect]="state">
+  <hr />
+  <div class="hero-status--power">
+    <span class="hero-status--label"> Intelligence </span>
+    <span class="hero-status--value">
+      {{ stats.intelligence }}
+    </span>
+  </div>
+
+  <div class="hero-status--power">
+    <span class="hero-status--label"> Strength </span>
+    <span class="hero-status--value">
+      {{ stats.strength }}
+    </span>
+  </div>
+
+  <div class="hero-status--power">
+    <span class="hero-status--label"> Speed </span>
+    <span class="hero-status--value">
+      {{ stats.speed }}
+    </span>
+  </div>
+
+  <div class="hero-status--power">
+    <span class="hero-status--label"> Durability </span>
+    <span class="hero-status--value">
+      {{ stats.durability }}
+    </span>
+  </div>
+
+  <div class="hero-status--power">
+    <span class="hero-status--label"> Power </span>
+    <span class="hero-status--value">
+      {{ stats.power }}
+    </span>
+  </div>
+
+  <div class="hero-status--power">
+    <span class="hero-status--label"> Combat </span>
+    <span class="hero-status--value">
+      {{ stats.combat }}
+    </span>
+  </div>
+
+  <hr />
+
+  <div class="hero-status--power">
+    <span class="hero-status--label"> Total </span>
+    <span class="hero-status--value">
+      {{ getTotal() }}
+    </span>
+  </div>
+</div>

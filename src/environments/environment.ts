@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  superHeroApiUrl: 'https://superheroapi.com/api.php',
+  superHeroApiKey: '254374609774498',
 };
 
 /*
